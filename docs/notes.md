@@ -36,6 +36,16 @@ _Need:_
    -  always use \_path
    -  correlate to routes
 
+# CRUD Scaffold
+
+-  rails g dbname
+-  what goes in table: datatype
+
+## Routes
+
+-  resources created with scaffolding
+-  when resources called, creates all CRUD routes
+
 # Breaking it Down
 
 1. application.html.erb = main template
