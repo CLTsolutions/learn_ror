@@ -41,13 +41,19 @@ _Need:_
 -  rails g dbname
 -  what goes in table: datatype
 
+# Migration
+_2 step process_
+1. create migration
+2. push migration
+
 ## Routes
 
 -  resources created with scaffolding
--  when resources called, creates all CRUD routes
+-  when resources called, creates all crud routes
 
-# Breaking it Down
+# breaking it down
 
 1. application.html.erb = main template
    -  grabs every page and outputs it where yield tag is
-2. partials = embed Ruby tag with render and point to wherever partial is located
+2. partials = embed ruby tag with render and point to wherever partial is located
+
